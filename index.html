@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculatrice de Triangle</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculatrice de Triangle Rectangle</h1>
+        <p>Pour Mariem</p>
+        <br>
+        <form id="triangleForm">
+            <label for="a">Longueur de a (cathète 1) :</label>
+            <input type="number" id="a" placeholder="Entrer la longueur de a" required>
+            <label for="b">Longueur de b (cathète 2) :</label>
+            <input type="number" id="b" placeholder="Entrer la longueur de b" required>
+            <label for="hypotenuse">Hypoténuse :</label>
+            <input type="number" id="hypotenuse" placeholder="Entrer l'hypoténuse" required>
+            <button type="button" onclick="calculate()">Calculer</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
